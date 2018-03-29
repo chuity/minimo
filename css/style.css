@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.p{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding: 30px 0px;
+    padding-bottom: 0;
+    
+}
+.h1{
+    color: #626262;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;   
+}
+/*=============This is header start*/
+header{
+    height: 100px;
+    width: 100%;
+}
+.leftheader{
+    width: 25%;
+    float: left;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+}
+.leftheader h1{
+font-size: 30px;
+padding: 45px 0;
+font-weight: normal;
+text-transform: uppercase;
+}
+.rightheader{
+    float: right;
+}
+.rightheader ul{
+    
+}
+.rightheader ul li {
+list-style: none;
+float: left;
+padding: 55px 100px;
+}
+.rightheader ul:last-child  li{
+padding-right: 0;
+}
+.rightheader ul li a{
+    font-family: 'Playfair Display', serif;
+     text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*=============This is header end*/
+/*=============This is background image start*/
+.bagimage{
+    height: 650px;
+}
+.bagimage img{
+    width: 100%;
+}
+
+/*=============This is background image end*/
+/*=============This is text Start*/
+.text{
+height: 300px;
+}
+/*=============This is text end*/
+/*=============This is image start*/
+.image_gallary{
+    height: 1200px;
+}
+.imag div{
+    float: left;
+    padding: 30px 60px;
+}
+.image{
+width: 40%;
+height: 545px;
+}
+.image img{
+    width: 100%;
+}
+.image_gallary2{
+    height: 600px;
+}
+/*=============This is image end*/
+/*=============This is sign_up start*/
+.sign_up{
+    display: block;
+    height: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+.sign_up h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+    padding-top: 100px;
+}
+input{
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: #f0f0f0;
+}
+.drop{
+    position: absolute;
+    right: 448px;
+top: 164px;
+}
+
+/*=============This is sign_up end*/
+.button{
+    text-align: center;
+    display: block;
+    height: 300px;
+}
+button{
+    height: 65px;
+    width: 165px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #6c6c6c;
+    background-color: #ffffff;
+    border: 1px solid #626262;
+    margin-top: 75px;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/*=============This is footer start*/
+footer{
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 100px;
+}
+.footer{
+    width: 100%;
+    display: block;
+}
+.lfooter{
+    float: left;
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+}
+.lfooter ul{}
+.lfooter ul li{
+    float: left;
+    list-style: none;
+    padding: 40px 20px;
+}
+.lfooter ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #606060;
+}
+
+
+.rfooter{
+    float: right;
+    width: 50%;
+}
+.rfooter  ul{
+    
+}
+
+.rfooter ul li{
+    list-style: none;
+    float: left;
+    padding: 40px 5px;
+}
+#live{
+    padding-left: 493px;
+}
+
+/*=============This is footer end*/
